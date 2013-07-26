@@ -1,0 +1,93 @@
+set(mmsl_SRCS
+  ${SOURCE_TOP_DIR}/mmscancl.c
+  ${SOURCE_TOP_DIR}/mmsconcl.c
+  ${SOURCE_TOP_DIR}/mmsdata.c
+  ${SOURCE_TOP_DIR}/mmsdatat.c
+  ${SOURCE_TOP_DIR}/mmsdec.c
+  ${SOURCE_TOP_DIR}/mmsdtext.c
+  ${SOURCE_TOP_DIR}/mmsinit.c
+  ${SOURCE_TOP_DIR}/mmsl_fin.c
+  ${SOURCE_TOP_DIR}/mmslvar.c
+  ${SOURCE_TOP_DIR}/mmsstat.c
+  ${SOURCE_TOP_DIR}/mms_adl.c
+  ${SOURCE_TOP_DIR}/mms_alta.c
+  ${SOURCE_TOP_DIR}/mms_aref.c
+  ${SOURCE_TOP_DIR}/mms_ced.c
+  ${SOURCE_TOP_DIR}/mms_ced3.c
+  ${SOURCE_TOP_DIR}/mms_ced4.c
+  ${SOURCE_TOP_DIR}/mms_ced5.c
+  ${SOURCE_TOP_DIR}/mms_ced6.c
+  ${SOURCE_TOP_DIR}/mms_ced7.c
+  ${SOURCE_TOP_DIR}/mms_err.c
+  ${SOURCE_TOP_DIR}/mms_err2.c
+  ${SOURCE_TOP_DIR}/mms_err3.c
+  ${SOURCE_TOP_DIR}/mms_err4.c
+  ${SOURCE_TOP_DIR}/mms_rej.c
+  ${SOURCE_TOP_DIR}/mms_rtaa.c
+  ${SOURCE_TOP_DIR}/mms_tdef.c
+  ${SOURCE_TOP_DIR}/msdataas.c
+  ${SOURCE_TOP_DIR}/ms_ext.c
+  ${SOURCE_TOP_DIR}/ms_size.c
+  ${SOURCE_TOP_DIR}/ms_tdef.c
+  ${SOURCE_TOP_DIR}/ms_tdef2.c
+  ${SOURCE_TOP_DIR}/ms_tdef4.c
+  ${SOURCE_TOP_DIR}/rq_ackev.c
+  ${SOURCE_TOP_DIR}/rq_cancl.c
+  ${SOURCE_TOP_DIR}/rq_concl.c
+  ${SOURCE_TOP_DIR}/rq_defee.c
+  ${SOURCE_TOP_DIR}/rq_evnot.c
+  ${SOURCE_TOP_DIR}/rq_getcl.c
+  ${SOURCE_TOP_DIR}/rq_getdo.c
+  ${SOURCE_TOP_DIR}/rq_getea.c
+  ${SOURCE_TOP_DIR}/rq_getec.c
+  ${SOURCE_TOP_DIR}/rq_getee.c
+  ${SOURCE_TOP_DIR}/rq_getpi.c
+  ${SOURCE_TOP_DIR}/rq_getty.c
+  ${SOURCE_TOP_DIR}/rq_getva.c
+  ${SOURCE_TOP_DIR}/rq_getvl.c
+  ${SOURCE_TOP_DIR}/rq_ident.c
+  ${SOURCE_TOP_DIR}/rq_info.c
+  ${SOURCE_TOP_DIR}/rq_init.c
+  ${SOURCE_TOP_DIR}/rq_namel.c
+  ${SOURCE_TOP_DIR}/rq_read.c
+  ${SOURCE_TOP_DIR}/rq_repea.c
+  ${SOURCE_TOP_DIR}/rq_repec.c
+  ${SOURCE_TOP_DIR}/rq_repee.c
+  ${SOURCE_TOP_DIR}/rq_stat.c
+  ${SOURCE_TOP_DIR}/rq_trige.c
+  ${SOURCE_TOP_DIR}/rq_ustat.c
+  ${SOURCE_TOP_DIR}/rq_write.c
+  ${SOURCE_TOP_DIR}/rs_ackev.c
+  ${SOURCE_TOP_DIR}/rs_cancl.c
+  ${SOURCE_TOP_DIR}/rs_concl.c
+  ${SOURCE_TOP_DIR}/rs_defee.c
+  ${SOURCE_TOP_DIR}/rs_evnot.c
+  ${SOURCE_TOP_DIR}/rs_getcl.c
+  ${SOURCE_TOP_DIR}/rs_getdo.c
+  ${SOURCE_TOP_DIR}/rs_getea.c
+  ${SOURCE_TOP_DIR}/rs_getec.c
+  ${SOURCE_TOP_DIR}/rs_getee.c
+  ${SOURCE_TOP_DIR}/rs_getpi.c
+  ${SOURCE_TOP_DIR}/rs_getty.c
+  ${SOURCE_TOP_DIR}/rs_getva.c
+  ${SOURCE_TOP_DIR}/rs_getvl.c
+  ${SOURCE_TOP_DIR}/rs_ident.c
+  ${SOURCE_TOP_DIR}/rs_info.c
+  ${SOURCE_TOP_DIR}/rs_init.c
+  ${SOURCE_TOP_DIR}/rs_namel.c
+  ${SOURCE_TOP_DIR}/rs_read.c
+  ${SOURCE_TOP_DIR}/rs_repea.c
+  ${SOURCE_TOP_DIR}/rs_repec.c
+  ${SOURCE_TOP_DIR}/rs_repee.c
+  ${SOURCE_TOP_DIR}/rs_stat.c
+  ${SOURCE_TOP_DIR}/rs_trige.c
+  ${SOURCE_TOP_DIR}/rs_ustat.c
+  ${SOURCE_TOP_DIR}/rs_write.c
+)
+
+include_directories(${PUBLIC_INC_DIR})
+
+add_subdirectory(mmsl_l)
+add_subdirectory(mmsl_n)
+add_subdirectory(mmsl_ld)
+add_subdirectory(mmsl_nd)
