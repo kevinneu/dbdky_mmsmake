@@ -6,7 +6,7 @@ set(PUBLIC_INC_DIR ${PROJECT_SOURCE_DIR}/../inc)
 
 add_subdirectory(meml)
 add_subdirectory(mem)
-#add_subdirectory(smem)
+add_subdirectory(smem)
 add_subdirectory(slog)
 add_subdirectory(asn1l)
 #add_subdirectory(cositcps0)
