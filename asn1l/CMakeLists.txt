@@ -1,0 +1,34 @@
+set(asn1l_SRCS 
+  ${SOURCE_TOP_DIR}/asn1r.c
+  ${SOURCE_TOP_DIR}/ard_btod.c
+  ${SOURCE_TOP_DIR}/ard_bool.c
+  ${SOURCE_TOP_DIR}/ard_bstr.c
+  ${SOURCE_TOP_DIR}/ard_delm.c
+  ${SOURCE_TOP_DIR}/ard_flt.c
+  ${SOURCE_TOP_DIR}/ard_idnt.c
+  ${SOURCE_TOP_DIR}/ard_int.c
+  ${SOURCE_TOP_DIR}/ard_objd.c
+  ${SOURCE_TOP_DIR}/ard_ostr.c
+  ${SOURCE_TOP_DIR}/ard_strn.c
+  ${SOURCE_TOP_DIR}/ard_time.c
+  ${SOURCE_TOP_DIR}/ard_utc.c
+  ${SOURCE_TOP_DIR}/ard_vstr.c
+  ${SOURCE_TOP_DIR}/are_btod.c
+  ${SOURCE_TOP_DIR}/are_bool.c
+  ${SOURCE_TOP_DIR}/are_bstr.c
+  ${SOURCE_TOP_DIR}/are_delm.c
+  ${SOURCE_TOP_DIR}/are_flt.c
+  ${SOURCE_TOP_DIR}/are_int.c
+  ${SOURCE_TOP_DIR}/are_objd.c
+  ${SOURCE_TOP_DIR}/are_ostr.c
+  ${SOURCE_TOP_DIR}/are_time.c
+  ${SOURCE_TOP_DIR}/are_utc.c
+  ${SOURCE_TOP_DIR}/are_vstr.c
+)
+
+include_directories(${PUBLIC_INC_DIR})
+
+add_subdirectory(asn1l_l)
+add_subdirectory(asn1l_n)
+add_subdirectory(asn1l_ld)
+add_subdirectory(asn1l_nd)
