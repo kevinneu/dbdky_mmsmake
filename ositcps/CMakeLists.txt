@@ -1,0 +1,33 @@
+set(ositcps_SRCS
+  ${SOURCE_TOP_DIR}/../uca/acse/acse2dec.c
+  ${SOURCE_TOP_DIR}/../uca/acse/acse2dib.c
+  ${SOURCE_TOP_DIR}/../uca/acse/acse2enc.c
+  ${SOURCE_TOP_DIR}/../uca/acse/acse2var.c
+  ${SOURCE_TOP_DIR}/../uca/leant/checksum.c
+  ${SOURCE_TOP_DIR}/../uca/leant/coppdaru.c
+  ${SOURCE_TOP_DIR}/../uca/leant/coppdcp.c
+  ${SOURCE_TOP_DIR}/../uca/leant/coppdcpr.c
+  ${SOURCE_TOP_DIR}/../uca/leant/copp_dec.c
+  ${SOURCE_TOP_DIR}/../uca/leant/copp_enc.c
+  ${SOURCE_TOP_DIR}/../uca/leant/cospmain.c
+  ${SOURCE_TOP_DIR}/../uca/leant/cosp_dec.c
+  ${SOURCE_TOP_DIR}/../uca/leant/cosp_enc.c
+  ${SOURCE_TOP_DIR}/../uca/leant/lean_cfg.c
+  ${SOURCE_TOP_DIR}/../uca/leant/lean_var.c
+  ${SOURCE_TOP_DIR}/../uca/leant/osicfgx.c
+  ${SOURCE_TOP_DIR}/../uca/leant/tp0calld.c
+  ${SOURCE_TOP_DIR}/../uca/leant/tp0callg.c
+  ${SOURCE_TOP_DIR}/../uca/leant/tp0main.c
+  ${SOURCE_TOP_DIR}/../uca/leant/tp0_dec.c
+  ${SOURCE_TOP_DIR}/../uca/leant/tp0_socks.c
+  ${SOURCE_TOP_DIR}/../uca/leant/tp4port.c
+  ${SOURCE_TOP_DIR}/../uca/leant/tp4_enc.c
+  ${SOURCE_TOP_DIR}/../uca/leant/tpx_dec.c
+)
+
+include_directories(${PUBLIC_INC_DIR})
+
+add_subdirectory(ositcps_l)
+add_subdirectory(ositcps_n)
+add_subdirectory(ositcps_ld)
+add_subdirectory(ositcps_nd)

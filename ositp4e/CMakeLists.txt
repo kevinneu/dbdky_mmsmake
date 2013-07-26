@@ -1,0 +1,52 @@
+set(ositp4e_SRCS
+  ${SOURCE_TOP_DIR}/../uca/acse/acse2dec.c
+  ${SOURCE_TOP_DIR}/../uca/acse/acse2dib.c
+  ${SOURCE_TOP_DIR}/../uca/acse/acse2enc.c
+  ${SOURCE_TOP_DIR}/../uca/acse/acse2var.c
+  ${SOURCE_TOP_DIR}/../uca/acse/audt_dec.c
+  ${SOURCE_TOP_DIR}/../uca/acse/audt_enc.c
+  ${SOURCE_TOP_DIR}/../uca/leant/checksum.c
+  ${SOURCE_TOP_DIR}/../uca/leant/clnp_dec.c
+  ${SOURCE_TOP_DIR}/../uca/leant/clnp_enc.c
+  ${SOURCE_TOP_DIR}/../uca/leant/clnp_esh.c
+  ${SOURCE_TOP_DIR}/../uca/leant/clnp_eth.c
+  ${SOURCE_TOP_DIR}/../uca/leant/clnp_hc.c
+  ${SOURCE_TOP_DIR}/../uca/leant/clnp_llc.c
+  ${SOURCE_TOP_DIR}/../uca/leant/clnp_sta.c
+  ${SOURCE_TOP_DIR}/../uca/leant/clnp_thr.c
+  ${SOURCE_TOP_DIR}/../uca/leant/clnp_usr.c
+  ${SOURCE_TOP_DIR}/../uca/leant/clnp_linux.c
+  ${SOURCE_TOP_DIR}/../uca/leant/copp_dec.c
+  ${SOURCE_TOP_DIR}/../uca/leant/copp_enc.c
+  ${SOURCE_TOP_DIR}/../uca/leant/coppdaru.c
+  ${SOURCE_TOP_DIR}/../uca/leant/coppdcp.c
+  ${SOURCE_TOP_DIR}/../uca/leant/coppdcpr.c
+  ${SOURCE_TOP_DIR}/../uca/leant/cosp_dec.c
+  ${SOURCE_TOP_DIR}/../uca/leant/cosp_enc.c
+  ${SOURCE_TOP_DIR}/../uca/leant/cospmain.c
+  ${SOURCE_TOP_DIR}/../uca/leant/ethertyp.c
+  ${SOURCE_TOP_DIR}/../uca/goose/goose.c
+  ${SOURCE_TOP_DIR}/../uca/goose/gsei_dec.c
+  ${SOURCE_TOP_DIR}/../uca/goose/gsei_enc.c
+  ${SOURCE_TOP_DIR}/../uca/leant/lean_cfg.c
+  ${SOURCE_TOP_DIR}/../uca/leant/lean_var.c
+  ${SOURCE_TOP_DIR}/../uca/leant/osicfgx.c
+  ${SOURCE_TOP_DIR}/../uca/leant/smp_dec.c
+  ${SOURCE_TOP_DIR}/../uca/leant/smp_slv.c
+  ${SOURCE_TOP_DIR}/../uca/leant/tp4_dec.c
+  ${SOURCE_TOP_DIR}/../uca/leant/tp4_enc.c
+  ${SOURCE_TOP_DIR}/../uca/leant/tp4_hc.c
+  ${SOURCE_TOP_DIR}/../uca/leant/tp4calld.c
+  ${SOURCE_TOP_DIR}/../uca/leant/tp4callg.c
+  ${SOURCE_TOP_DIR}/../uca/leant/tp4main.c
+  ${SOURCE_TOP_DIR}/../uca/leant/tp4port.c
+  ${SOURCE_TOP_DIR}/../uca/leant/tp4send.c
+  ${SOURCE_TOP_DIR}/../uca/leant/tpx_dec.c
+)
+
+include_directories(${PUBLIC_INC_DIR})
+
+add_subdirectory(ositp4e_l)
+add_subdirectory(ositp4e_n)
+add_subdirectory(ositp4e_ld)
+add_subdirectory(ositp4e_nd)
