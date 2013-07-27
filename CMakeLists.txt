@@ -26,10 +26,11 @@ add_subdirectory(findalgn)
 add_subdirectory(foundry)
 #add_subdirectory(mmslog)
 #add_subdirectory(cositcps0)
-
 #add_subdirectory(cositpxs0)
 #add_subdirectory(iecgoose)
-#add_subdirectory(scl_srvr_ld)
+
+
+#add_subdirectory(scl_srvr)
 #add_subdirectory(scl_tpxs0)
 #add_subdirectory(sositpxs0)
-#add_subdirectory(uositcps0)
+add_subdirectory(uositcps0)
