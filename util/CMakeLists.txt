@@ -1,0 +1,30 @@
+set(util_SRCS
+  ${SOURCE_TOP_DIR}/genlists.c 
+  ${SOURCE_TOP_DIR}/gensock2.c 
+  ${SOURCE_TOP_DIR}/cfg_util.c 
+  ${SOURCE_TOP_DIR}/glbsem.c 
+  ${SOURCE_TOP_DIR}/glbsem_unix.c 
+  ${SOURCE_TOP_DIR}/scl_log.c 
+  ${SOURCE_TOP_DIR}/sclparse.c 
+  ${SOURCE_TOP_DIR}/sclstore.c 
+  ${SOURCE_TOP_DIR}/stime.c 
+  ${SOURCE_TOP_DIR}/str_util.c 
+  ${SOURCE_TOP_DIR}/sx_dec.c 
+  ${SOURCE_TOP_DIR}/sx_enc.c 
+  ${SOURCE_TOP_DIR}/sx_data.c 
+  ${SOURCE_TOP_DIR}/sx_axs4d.c 
+  ${SOURCE_TOP_DIR}/stdtime.c 
+  ${SOURCE_TOP_DIR}/stdtime_mms_btime.c 
+  ${SOURCE_TOP_DIR}/stdtime_mms_utctime.c 
+  ${SOURCE_TOP_DIR}/stdtime_quadlib.c 
+  ${SOURCE_TOP_DIR}/stdtime_w32.c 
+  ${SOURCE_TOP_DIR}/time_str.c 
+  ${SOURCE_TOP_DIR}/ukey.c
+)
+
+include_directories(${PUBLIC_INC_DIR})
+
+add_subdirectory(util_l)
+add_subdirectory(util_n)
+add_subdirectory(util_ld)
+add_subdirectory(util_nd)

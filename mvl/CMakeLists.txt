@@ -1,0 +1,66 @@
+set(mvl_SRCS
+  ${SOURCE_TOP_DIR}/../mvl/src/c_concl.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_defvl.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_delvl.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_fclose.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_fdel.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_fdir.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_fget.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_fopen.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_fread.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_fren.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_getdom.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_getnam.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_getvar.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_getvla.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_ident.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_info.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_jinit.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_jread.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_jstat.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_read.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_obtfi.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_status.c
+  ${SOURCE_TOP_DIR}/../mvl/src/c_write.c
+  ${SOURCE_TOP_DIR}/../mvl/src/mvl_buf.c
+  ${SOURCE_TOP_DIR}/../mvl/src/mvl_dtyp.c
+  ${SOURCE_TOP_DIR}/../mvl/src/mvl_obj.c
+  ${SOURCE_TOP_DIR}/../mvl/src/mvl_objb.c
+  ${SOURCE_TOP_DIR}/../mvl/src/mvl_ijou.c
+  ${SOURCE_TOP_DIR}/../mvl/src/mvl_send.c
+  ${SOURCE_TOP_DIR}/../mvl/src/mvl_serv.c
+  ${SOURCE_TOP_DIR}/../mvl/src/mvl_typ2.c
+  ${SOURCE_TOP_DIR}/../mvl/src/mvl_type.c
+  ${SOURCE_TOP_DIR}/../mvl/src/mvl_var.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_cancel.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_concl.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_defvl.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_delvl.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_fclose.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_fdel.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_fren.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_fdir.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_fopen.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_fread.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_getcl.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_getdom.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_getnam.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_getvaa.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_getvla.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_ident.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_info.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_jinit.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_jread.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_jstat.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_obtfi.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_read.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_status.c
+  ${SOURCE_TOP_DIR}/../mvl/src/s_write.c
+)
+
+include_directories(${PUBLIC_INC_DIR})
+
+add_subdirectory(mvl_l)
+add_subdirectory(mvl_n)
+add_subdirectory(mvl_ld)
+add_subdirectory(mvl_nd)
