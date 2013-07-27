@@ -1,0 +1,98 @@
+set(mlogl_SRCS
+  ${SOURCE_TOP_DIR}/mlogl.c 
+  ${SOURCE_TOP_DIR}/mlogaevn.c 
+  ${SOURCE_TOP_DIR}/mlogafil.c 
+  ${SOURCE_TOP_DIR}/mlogavar.c 
+  ${SOURCE_TOP_DIR}/mlogmisc.c 
+  ${SOURCE_TOP_DIR}/ml_ackev.c 
+  ${SOURCE_TOP_DIR}/ml_altec.c 
+  ${SOURCE_TOP_DIR}/ml_altee.c 
+  ${SOURCE_TOP_DIR}/ml_cancl.c 
+  ${SOURCE_TOP_DIR}/ml_concl.c 
+  ${SOURCE_TOP_DIR}/ml_crepi.c 
+  ${SOURCE_TOP_DIR}/ml_defea.c 
+  ${SOURCE_TOP_DIR}/ml_defec.c 
+  ${SOURCE_TOP_DIR}/ml_defee.c 
+  ${SOURCE_TOP_DIR}/ml_defsc.c 
+  ${SOURCE_TOP_DIR}/ml_defse.c 
+  ${SOURCE_TOP_DIR}/ml_defty.c 
+  ${SOURCE_TOP_DIR}/ml_defva.c 
+  ${SOURCE_TOP_DIR}/ml_defvl.c 
+  ${SOURCE_TOP_DIR}/ml_deldo.c 
+  ${SOURCE_TOP_DIR}/ml_delea.c 
+  ${SOURCE_TOP_DIR}/ml_delec.c 
+  ${SOURCE_TOP_DIR}/ml_delee.c 
+  ${SOURCE_TOP_DIR}/ml_delpi.c 
+  ${SOURCE_TOP_DIR}/ml_delse.c 
+  ${SOURCE_TOP_DIR}/ml_delty.c 
+  ${SOURCE_TOP_DIR}/ml_delva.c 
+  ${SOURCE_TOP_DIR}/ml_delvl.c 
+  ${SOURCE_TOP_DIR}/ml_downl.c 
+  ${SOURCE_TOP_DIR}/ml_evnot.c 
+  ${SOURCE_TOP_DIR}/ml_fclos.c 
+  ${SOURCE_TOP_DIR}/ml_fdele.c 
+  ${SOURCE_TOP_DIR}/ml_frena.c 
+  ${SOURCE_TOP_DIR}/ml_fdir.c 
+  ${SOURCE_TOP_DIR}/ml_fopen.c 
+  ${SOURCE_TOP_DIR}/ml_fread.c 
+  ${SOURCE_TOP_DIR}/ml_getae.c 
+  ${SOURCE_TOP_DIR}/ml_getas.c 
+  ${SOURCE_TOP_DIR}/ml_getcl.c 
+  ${SOURCE_TOP_DIR}/ml_getdo.c 
+  ${SOURCE_TOP_DIR}/ml_getea.c 
+  ${SOURCE_TOP_DIR}/ml_getec.c 
+  ${SOURCE_TOP_DIR}/ml_getee.c 
+  ${SOURCE_TOP_DIR}/ml_getpi.c 
+  ${SOURCE_TOP_DIR}/ml_getsc.c 
+  ${SOURCE_TOP_DIR}/ml_getty.c 
+  ${SOURCE_TOP_DIR}/ml_getva.c 
+  ${SOURCE_TOP_DIR}/ml_getvl.c 
+  ${SOURCE_TOP_DIR}/ml_ident.c 
+  ${SOURCE_TOP_DIR}/ml_info.c 
+  ${SOURCE_TOP_DIR}/ml_init.c 
+  ${SOURCE_TOP_DIR}/ml_initd.c 
+  ${SOURCE_TOP_DIR}/ml_initu.c 
+  ${SOURCE_TOP_DIR}/ml_input.c 
+  ${SOURCE_TOP_DIR}/ml_jcrea.c 
+  ${SOURCE_TOP_DIR}/ml_jdele.c 
+  ${SOURCE_TOP_DIR}/ml_jinit.c 
+  ${SOURCE_TOP_DIR}/ml_jread.c 
+  ${SOURCE_TOP_DIR}/ml_jstat.c 
+  ${SOURCE_TOP_DIR}/ml_jwrit.c 
+  ${SOURCE_TOP_DIR}/ml_kill.c 
+  ${SOURCE_TOP_DIR}/ml_loadd.c 
+  ${SOURCE_TOP_DIR}/ml_namel.c 
+  ${SOURCE_TOP_DIR}/ml_obtfi.c 
+  ${SOURCE_TOP_DIR}/ml_outpu.c 
+  ${SOURCE_TOP_DIR}/ml_rddwn.c 
+  ${SOURCE_TOP_DIR}/ml_rdupl.c 
+  ${SOURCE_TOP_DIR}/ml_read.c 
+  ${SOURCE_TOP_DIR}/ml_relct.c 
+  ${SOURCE_TOP_DIR}/ml_renam.c 
+  ${SOURCE_TOP_DIR}/ml_repea.c 
+  ${SOURCE_TOP_DIR}/ml_repec.c 
+  ${SOURCE_TOP_DIR}/ml_repee.c 
+  ${SOURCE_TOP_DIR}/ml_reset.c 
+  ${SOURCE_TOP_DIR}/ml_resum.c 
+  ${SOURCE_TOP_DIR}/ml_rsent.c 
+  ${SOURCE_TOP_DIR}/ml_rspoo.c 
+  ${SOURCE_TOP_DIR}/ml_rssta.c 
+  ${SOURCE_TOP_DIR}/ml_start.c 
+  ${SOURCE_TOP_DIR}/ml_stat.c 
+  ${SOURCE_TOP_DIR}/ml_stop.c 
+  ${SOURCE_TOP_DIR}/ml_store.c 
+  ${SOURCE_TOP_DIR}/ml_takec.c 
+  ${SOURCE_TOP_DIR}/ml_termd.c 
+  ${SOURCE_TOP_DIR}/ml_termu.c 
+  ${SOURCE_TOP_DIR}/ml_trige.c 
+  ${SOURCE_TOP_DIR}/ml_uploa.c 
+  ${SOURCE_TOP_DIR}/ml_ustat.c 
+  ${SOURCE_TOP_DIR}/ml_write.c
+)
+
+include_directories(${PUBLIC_INC_DIR})
+
+add_subdirectory(mlogl_l)
+add_subdirectory(mlogl_n)
+add_subdirectory(mlogl_ld)
+add_subdirectory(mlogl_nd)

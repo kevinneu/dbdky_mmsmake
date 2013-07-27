@@ -3,6 +3,7 @@ set(slog_SRCS
   ${SOURCE_TOP_DIR}/slog.c
   ${SOURCE_TOP_DIR}/slogfil.c
   ${SOURCE_TOP_DIR}/slogipcs.c
+  ${SOURCE_TOP_DIR}/slogmem.c
   ${SOURCE_TOP_DIR}/qmem.c
 )
 
