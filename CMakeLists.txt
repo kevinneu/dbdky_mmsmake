@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 2.6)
 project(mmslite802)
 
+find_package(LibXml2 REQUIRED)
+if (LIBXML2_FOUND)
+  message(STATUS "*****************FOUND")
+endif (LIBXML2_FOUND)
+
 set(SOURCE_TOP_DIR ${PROJECT_SOURCE_DIR}/../src)
 set(PUBLIC_INC_DIR ${PROJECT_SOURCE_DIR}/../inc)
 
@@ -21,35 +26,14 @@ add_subdirectory(mvl)
 add_subdirectory(mvlu)
 add_subdirectory(util)
 add_subdirectory(mlogl)
-
-
-#
 add_subdirectory(sositcps0)
-
 add_subdirectory(findalgn)
 add_subdirectory(foundry)
-
-#
 add_subdirectory(mmslog)
-
-#
 add_subdirectory(cositcps0)
-
-#
 add_subdirectory(cositpxs0)
-
-#
 add_subdirectory(iecgoose)
-
-
-#
 add_subdirectory(scl_srvr)
-
-#
 add_subdirectory(scl_tpxs0)
-
-#
 add_subdirectory(sositpxs0)
-
-#
 add_subdirectory(uositcps0)

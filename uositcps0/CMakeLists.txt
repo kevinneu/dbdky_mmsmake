@@ -12,6 +12,6 @@ set(uositcps0_SRCS
 )
 
 include_directories(${PUBLIC_INC_DIR})
-include_directories(${PUBLIC_INC_DIR}/mmsop_en)
+include_directories(${SOURCE_TOP_DIR}/../mvl/usr/uca_srvr)
 
 add_subdirectory(uositcps0_ld)

@@ -9,9 +9,11 @@ set(cositpxs0_SRCS
   ${SOURCE_TOP_DIR}/../mvl/usr/reject.c
   ${SOURCE_TOP_DIR}/slogipc.c
   ${SOURCE_TOP_DIR}/../mvl/usr/client/clntobj.c
+  ${SOURCE_TOP_DIR}/../mvl/usr/client/inifile.c
 )
 
 include_directories(${PUBLIC_INC_DIR})
 include_directories(${SOURCE_TOP_DIR}/../mvl/usr/client)
+include_directories(${LIBXML2_INCLUDE_DIRS})
 
 add_subdirectory(cositpxs0_ld)

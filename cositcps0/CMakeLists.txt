@@ -14,5 +14,6 @@ set(cositcps0_SRCS
 
 include_directories(${PUBLIC_INC_DIR})
 include_directories(${SOURCE_TOP_DIR}/../mvl/usr/client)
+include_directories(${LIBXML2_INCLUDE_DIRS})
 
 add_subdirectory(cositcps0_ld)
