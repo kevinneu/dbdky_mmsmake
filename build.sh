@@ -10,4 +10,5 @@ mkdir -p $BUILD_DIR/$BUILD_PLATFORM \
 	&& cd $BUILD_DIR/$BUILD_PLATFORM \
 	&& cmake --graphviz=dep.dot \
 	$SOURCE_DIR \
-	&& make $*
+	&& make $* \
+        && make install

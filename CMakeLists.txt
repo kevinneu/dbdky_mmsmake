@@ -8,6 +8,8 @@ endif (LIBXML2_FOUND)
 
 set(SOURCE_TOP_DIR ${PROJECT_SOURCE_DIR}/../src)
 set(PUBLIC_INC_DIR ${PROJECT_SOURCE_DIR}/../inc)
+set(CMAKE_INSTALL_PREFIX ${PROJECT_SOURCE_DIR})
+
 
 add_subdirectory(meml)
 add_subdirectory(mem)
